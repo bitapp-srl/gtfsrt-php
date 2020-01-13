@@ -1,0 +1,22 @@
+{
+    "name": "bitapp/gtfsrt-php",
+    "description": "Standard classes to read GTFS Real Time via protobuffer",
+    "type": "library",
+    "require": {
+        "google/protobuf": "^3.11"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrea Martini",
+            "email": "andrea.martini@bitapp.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GPBMetadata\\": "GPBMetadata/",
+            "Transit_realtime\\": "Transit_realtime/"
+        }
+    },
+    "minimum-stability": "stable"
+}
