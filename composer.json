@@ -1,5 +1,5 @@
 {
-    "name": "bitapp/gtfsrt-php",
+    "name": "bitapp-srl/gtfsrt-php",
     "description": "Standard classes to read GTFS Real Time via protobuffer",
     "type": "library",
     "require": {

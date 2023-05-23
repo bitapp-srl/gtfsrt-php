@@ -12,7 +12,7 @@ Add the repository to your `composer.json` file:
 "repositories": [
     {
         "type": "vcs",
-        "url":  "git@gitlab.bitapp.it:webus/gtfsrt-php.git"
+        "url":  "git@github.com:bitapp-srl/gtfsrt-php.git"
     }
 ]
 ```
@@ -20,5 +20,5 @@ Add the repository to your `composer.json` file:
 Install the package adding it in your `composer.json` file or via cli:
 
 ```
-composer require bitapp/gtfsrt-php
+composer require bitapp-srl/gtfsrt-php
 ```
